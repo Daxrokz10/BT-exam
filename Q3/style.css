@@ -9,10 +9,12 @@
     --text-color: #E2F1E7;
 }
 
-h1{
-    color: var(--text-color)!important;
-}
-
 body{
     background-color: var(--bg1-color);
+}
+
+/* HEADER */
+
+h1{
+    color: var(--text-color)!important;
 }

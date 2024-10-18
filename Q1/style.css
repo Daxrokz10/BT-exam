@@ -21,3 +21,7 @@ body{
 .card{
     background-color: #387478;
 }
+
+footer a{
+    margin-left: 60%;
+}
