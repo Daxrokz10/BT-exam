@@ -8,3 +8,11 @@
     --bg2-color: #387478;
     --text-color: #E2F1E7;
 }
+
+h1{
+    color: var(--text-color)!important;
+}
+
+body{
+    background-color: var(--bg1-color);
+}

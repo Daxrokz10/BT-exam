@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q2</title>
+    <title>Q2Accordion</title>
     
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +27,51 @@
 </head>
 <body>
     
+    <!-- HEADER -->
+    <header>
+        <h1 class="h1 text-center">F.A.Q</h1>
+    </header>
+ 
+    <!-- ACCORDION -->
+
+    <div class="accordion accordion-flush me-3" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Question 1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloribus, natus laborum beatae nihil quae incidunt tempora aliquid debitis suscipit.</div>
+
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Question 2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus corrupti suscipit magnam officiis rem quia beatae, eveniet neque exercitationem hic.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Question 3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae ipsa labore assumenda iusto vitae sapiente doloremque asperiores et tempore!</div>
+          </div>
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

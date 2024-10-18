@@ -8,3 +8,28 @@
     --bg2-color: #387478;
     --text-color: #E2F1E7;
 }
+
+h1{
+    color: var(--text-color)!important;
+}
+
+body{
+    background-color: var(--bg1-color);
+}
+
+.accordion-item h2{
+    font-family: "Quicksand", sans-serif;
+    margin-top: 30px;
+}
+.accordion-item , .accordion-item button{
+    font-family: "Quicksand", sans-serif;
+}
+.accordion-item{
+    width: 80%;
+    margin-left: 10%;
+}
+.accordion-item button{
+    font-weight: 800;
+    color: var(--text-color);
+    background-color: var(--bg2-color); 
+}

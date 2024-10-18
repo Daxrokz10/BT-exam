@@ -8,3 +8,16 @@
     --bg2-color: #387478;
     --text-color: #E2F1E7;
 }
+
+body{
+    background-color: var(--bg1-color);
+    color: var(--text-color);
+}
+
+.btn-custom{
+    background-color: var(--bg1-color);
+    color: var(--text-color);
+}
+.card{
+    background-color: #387478;
+}

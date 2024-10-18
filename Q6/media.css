@@ -26,6 +26,10 @@
 /* S  */
 
 @media(max-width:767px){
+.col-sm-12{
+    margin-left: 20%;
+    margin-top: 20px;
+}
 
 }
 

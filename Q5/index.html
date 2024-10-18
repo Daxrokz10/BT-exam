@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q5</title>
+    <title>Q5Form</title>
 
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +27,53 @@
 </head>
 <body>
    
+<!-- HEADER -->
+
+<header>
+    <h1 class="h1 text-center">Registration Form</h1>
+</header>
+
+<!-- FORM -->
+
+
+    <div class="container">
+    <div class="shadow p-5 rounded-5">
+     <form class="row g-2">
+         <div class="col-md-6 col-sm-12">
+             <label for="first-name" class="form-label">First name</label>
+             <input type="text" class="form-control" id="first-name">
+         </div>
+         <div class="col-md-6 col-sm-12">
+             <label for="last-name" class="form-label">Last name</label>
+             <input type="text" class="form-control" id="last-name">
+         </div>
+         
+         <div class="col-12">
+             <label for="Address" class="form-label">Address</label>
+             <textarea name="" id="Address" placeholder="Lusnikui,Navsari" class="rounded-3 d-block w-100 h-75"></textarea>
+         </div>
+         <div class="col-md-6 ">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email">
+        </div>
+        <div class="col-md-6">
+            <label for="Password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="Password">
+        </div>
+         <div class="col-md-6">
+             <label for="City" class="form-label">City</label>
+             <input type="text" class="form-control" id="City">
+         </div>
+     
+
+         </div>
+         <div class="col-12">
+             <button type="submit" class="btn btn-primary">Register</button>
+         </div>
+     </form>
+     </div>
+    </div>
+ </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

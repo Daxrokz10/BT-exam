@@ -8,3 +8,17 @@
     --bg2-color: #387478;
     --text-color: #E2F1E7;
 }
+
+body{
+    background-image: linear-gradient(rgb(0, 0, 0,0.4),rgb(0, 0, 0,0.4)) , url(../assets/images/blog-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.row-1{
+    
+}
+
+.card{
+    background-color: var(--bg2-color);
+}

@@ -8,3 +8,22 @@
     --bg2-color: #387478;
     --text-color: #E2F1E7;
 }
+
+body{
+    background-color: var(--bg1-color);
+}
+
+/* HEADER */
+h1{
+    color: var(--text-color)!important;
+}
+
+/* FORM */
+.shadow{
+    background-color: var(--bg2-color)!important;
+}
+
+button{
+    margin-left: 45%;
+    margin-top: 40px;
+}

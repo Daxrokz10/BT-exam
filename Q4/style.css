@@ -8,3 +8,24 @@
     --bg2-color: #387478;
     --text-color: #E2F1E7;
 }
+
+body{
+    background-image: url(../assets/images/bg-image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* NAVBAR */
+
+.bg-custom{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(8px);
+}
+
+/* OFFCANVAS */
+
+.offcanvas{
+    background-color: #243642;
+    color: #E2F1E7;
+}
